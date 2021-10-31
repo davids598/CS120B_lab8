@@ -28,7 +28,7 @@ int main(void) {
     while (1) {
       x = ADC;
       PORTB = (char)x;
-      PORTD = (char)(x >> 4);
+      PORTD = (char)(x >> 8);
     }
     return 1;
 }
